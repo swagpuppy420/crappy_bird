@@ -236,7 +236,7 @@ int main(){
 	//initialize the pipes
 	std::vector<pipe> pipes;
 	int pipe_offset = 0;
-	for (int i=1; i<50; i++){
+	for (int i=1; i<51; i++){
 		pipe newPipe;
 		newPipe.init_pipe( lines );
 		newPipe.space_x += pipe_offset;
